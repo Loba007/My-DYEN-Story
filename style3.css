@@ -1,0 +1,47 @@
+body{
+    diplay: flex;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+
+
+h1{
+    font-size: xx-large;
+    font-weight: 1000;
+    font-style: bold;
+    font-display: black;
+}
+
+
+
+/*mob=400px
+tab=700px
+lag tab=1824px
+desktop=1200px*/
+
+
+
+.image-container{
+    display:none;
+}
+
+.text-container{
+    text-align:center;
+    padding: 0 50px;   
+}
+
+.text-container h1{
+font-size: 2.7rem;
+font-weight: 700px;
+}
+
+.text-container p {
+    font-size: 20px;
+}
+
+.btn-container {
+    display:flex;
+    align-item: center;
+    justify-content: center;
+}

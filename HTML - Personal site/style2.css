@@ -1,0 +1,607 @@
+:root{
+    --yellow: #ffc200;
+    --white: #f7f8ff;
+    --black: #212525;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.poppings-light{
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+main{
+    margin:0 5% 20% 5%;
+}
+
+header{
+    width: 90%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    background-color: #f7f8ff;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+div#logo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+}
+
+nav>div{
+    diplay: flex;
+    justify-content: center;
+    width: 35%;
+    flex-direction: column;
+    margin: auto;
+}
+
+nav input{
+    font-size: 1.1rem;
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px 0 5px 20px;
+}
+
+nav input:focus{
+    outline: 1px solid var(--yellow);
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65%;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+header li:hover{
+    color: #ffc200;
+    cursor: pointer;
+}
+
+section#main{
+    display:flex;
+    margin-top: 10%;
+    background-color: var(--white);
+}
+
+section#main>div{
+    width: 50%
+}
+
+section#main #fmain{
+    display: flex;
+    flex-direction: column;
+}
+
+section#main div h1{
+    margin:200px 0 20px 0;
+    padding: 0 20px 0 5px;
+    font-size: 3.5rem;
+    width: 70%;
+}
+
+section3main div p{
+    font-size: 1.2rem;
+    margin-left: 5px;
+    padding-left: 5px;
+    width: 70%;
+}
+
+#button-div{
+    display: flex;
+    margin: 5px;
+}
+
+.button-i{
+    background-color: var(--yellow);
+    width: 40%;
+    font-size: 1.1rem;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 5px 0 0;
+    border: none;
+    cursor: pointer; 
+}
+
+.button-ii{
+    background-color: var(--white);
+    border-radius: 11.58px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.button span{
+    margin-left: 5px;
+}
+
+div#f-img{
+    width: 60%;
+    margin: 0 40% 0 200px;
+}
+
+div#f-img img{
+    width: 100%;
+}
+
+
+section#networking{
+    color: #212529;
+}
+
+section#networking #net-one p{
+    width: 60%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section#networking #net-two{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section#networking #net-two >div h5{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+
+section#mission{
+    display: flex;
+justify-content: space-between;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+section#mission #Imission{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #212529;
+}
+
+section#mission ul{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 0;
+    list-style: none;
+}
+
+section#mission ul li{
+    display: flex;
+    align-items: center;
+}
+
+section#mission ul img{
+    width: 22px;
+    height: 22px;
+    margin-right:  5px;
+}
+
+section#mision h6{
+    color: #ffc200;
+    margin: 0 40px 0 40px;
+}
+
+section#mission h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0 20px 0 40px;
+    line-height: 2;
+}
+
+section#mission #image{
+    width: 45%;
+}
+
+#image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+section#mission button{
+    background-color:#ffc200;
+    font-size:  1.1rem;
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 5px 0 0;
+    border: none;
+    cursor: pointer;
+}
+
+section#community{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:  50px;
+}
+
+section#community >div{
+width: 48.5%;
+display: flex;
+flex-direction: column;
+}
+
+section#community img{
+    width: 100%;
+}
+
+section#community h6{
+    color: #ffc200;
+    font-size:  1rem;
+}
+
+section#community button{
+    background-color: #ffc200;
+    width: 40%;
+    font-size: 1.1rem;
+    margin: 0 5px 0 0;
+    padding: 15px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+
+section#video{
+    height: 35rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside#stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://dyen.org/assets/images/png/DSC_9989\1.png);
+    background-position: top;
+    background-size: cover;
+    height: 30rem;
+    position: relative;
+    bottom:  150px;
+    z-index: -1;
+    width: 100%;
+}
+
+aside#stats > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    width: 60%;
+    margin-top: 50px;
+}
+
+aside#stats h2{
+    color:#ffc200;
+    font-size: 1.8rem;
+    padding-left: 5px;
+}
+
+aside#stats p{
+    color: white;
+    padding-left: 5px;
+}
+
+aside#reach-out{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px;
+}
+
+aside#reach-out h6{
+    color:#ffc200;
+    text-align: center;
+    font-size: 1rem;
+}
+
+aside#reach-out h3{
+    font-size:  1.9rem;
+    text-align: center;
+    color: #212525;
+}
+
+aside#reach-out #Animation{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+aside#reach-out #Animation div{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+     background-color: whitesmoke;
+     color: black;
+     text-align: center;
+     height: 30rem;
+     border-radius: 20px;
+     border: none;
+}
+
+aside#reach-out #Animation img{
+    width: 95px;
+    height: 93px;
+}
+
+
+    aside#reach-out button{
+        width: 40%;
+        font-size: 1.1rem;
+        padding: 15px;
+        margin: 0;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #f7f8ff;
+        color: #ffc200;
+        border-radius: 12px;
+        border: none;
+        
+    }
+
+aside#reach-out h5{
+    background-color: whitesmoke;
+}
+
+aside#reach-out h5{
+    font-size:  1.4rem;
+    margin: 0;
+}
+
+aside#reach-out p{
+    width: 60%;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f7f8ff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+div#id-subscribe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #ffc200;
+    height: 15rem;
+    margin:  100px 5%;
+    border-radius:  20px;
+}
+
+#subscribe h1{
+    font-size: 2.32rem;
+    width: 40%;
+    text-wrap: wrap;
+}
+
+#subscribe div{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height:30%;
+    border: 1px solid white;
+}
+
+#subscribe input{
+    height: 90%;
+    width: 70%;
+    background-color: black;
+    border: none;
+    padding: 2px;
+    color: #f7f8ff;
+}
+
+#subscribe input:focus{
+    outline:none;
+}
+
+#subscribe button{
+    width: 30%;
+    font-size:  1.1rem;
+    background-color: #ffc200;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 4px;
+    border:none;
+    cursor: pointer;
+}
+
+footer hr{
+    width:100%
+}
+
+small{
+    margin-left: 5%;
+}
+
+footer ul{
+    display: none;
+}
+
+@media screen and (nax-width: 769px) {
+    nav{
+        display: none;
+    }
+    section#main{
+        flex-direction: column;
+        align-items: center;
+    }
+    section#main > div{
+     width: 100%;
+    }
+    div#f-img{
+        display: none;
+    }
+    div#fmain{
+        width: 100%;
+    }
+    section#main div h1, section#main div p{
+        width: 100%;
+        text-align: center;
+    }
+ #button-div{
+    display: flex;
+    justify-content: center;
+ }
+ section#networking #net-one{
+    width: 100%;
+ }
+ section#networking #net-two > div h5, section#networking #net-two > p{
+    display: none;
+ }
+ section#networking #net-two > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: 0 auto;
+    gap: 20px;
+ }
+ section#mission{
+    flex-direction: column;
+    align-items: center;
+ }
+ section#mission h6{
+    color: #ffc200;
+    text-align: center;
+    font-size: 1em;
+ }
+ section#mission #image{
+    margin-top: 20px;
+    width 90%;
+ }
+ section#community{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:  50px;
+    margin-bottom: 50px;
+ }
+section#community > div{
+    width: 90%;
+    display: flex;
+    text-align: center;
+}
+section#community button{
+    width:30%;
+}
+aside#stats > div{
+    width: 80%;
+}
+aside#reach-out #Animation{
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+}
+footer #subscribe{
+    flex-direction: column;
+}
+#subscribe div, #subscrribe h1{
+    width:95%;
+}
+#subscribe h1{
+    text-align: center;
+}
+footer ul{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1.1rem;
+    font-size: 1.2rem;
+    padding; 20px;
+}
+footer #toggle{
+    display:none;
+}
+}
+
+@media screen and (max-width: 400px) { 
+    main{
+        margin: 0 5% 20 5%;
+        width: 90%;
+    }
+
+    section#main div h1{
+        font-size: 2.5rem;
+        width: 100px;
+        text-align: center;
+    }
+    section#main div p{
+        padding: 5px;
+        margin-right: 3px;
+    }
+    aside#reac-out #Animation div{
+        width: 100%;
+    }
+aside#stats{
+    height:30rem;
+    bottom:100px;
+    right: 0;
+    position:relative
+    z-index: -1;
+    width: 100%;
+    margin: 0;
+}
+
+section#community button{
+    width: 50%;
+}
+aside#stats > div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 70%;
+    margin-top:  150px;
+    margin-bottom:  60px;
+    column-gap: 2rem;
+}
+
+#subscribe button{
+ font-size: 0.8rem;
+}
+footer{
+    display:block;
+}
+    
+}

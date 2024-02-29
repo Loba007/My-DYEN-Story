@@ -1,0 +1,15 @@
+body{
+    diplay: flex;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+
+
+h1{
+    font-size: xx-large;
+    font-weight: 1000;
+    font-style: bold;
+    font-display: black;
+}
+
